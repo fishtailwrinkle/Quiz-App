@@ -47,7 +47,7 @@ function renderHome() {
 		<p>10 years ago, with those words on January 9, 2007, Steve Jobs kicked off his presentation at Macworld, San Francisco to awe the world by unveiling the revolutionary product:</p>
 		<h3 class="header-iphone">iPhone</h3>`);
 	$('.home').html(`<p>Press Home to unlock</p>`);
-	$('.bottom').html(`<button class="home-button js-start"></button>`);
+	$('.bottom').html(`<button aria-label="home" class="home-button js-start"></button>`);
 }
 
 function startQuiz() {
