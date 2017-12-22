@@ -1,0 +1,126 @@
+* {
+	font-family: "Roboto", helvetica, sans-serif;
+/*	font-size: 18px;*/
+
+
+}
+div.js-status p {
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 800px;
+	width: 400px;
+	margin: 0 5px;
+	padding: 0 5px;
+	border: solid black 1px;
+	border-radius: 30px;
+}
+
+main {
+	height: 65%;
+	margin: 0 5px;
+	padding: 0 5px;
+	border-top: solid black 1px;
+	border-left: solid black 1px;
+	border-right: solid black 1px;
+	background-image: url('http://all-top-wallpapers.com/wp-content/uploads/2017/03/iphone-6-plus-default-wallpaper-intended-for-apple-iphone-wallpaper-original.jpg');
+	background-size: 100% 100%; 
+	color: white;
+}
+
+.header-iphone {
+	font-size: 60px;
+	text-align: center;
+	color: silver;
+}
+
+.top, .bottom {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.top-camera {
+	height: 10px;
+	width: 10px;
+	margin: 30px auto;
+	border: solid black 1px;
+	border-radius: 50%;
+	display: inline-block;
+}	
+
+.top-speaker {
+	height: 10px;
+	width: 30%;
+	margin: 30px auto;
+	border: solid black 1px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.home-button {
+	height: 50px;
+	width: 50px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	border: solid black 1px;
+}
+
+.js-choice-correct {
+	background-color: green;
+}
+
+.js-choice-wrong {
+	background-color: red;
+}
+
+.js-footer {
+	bottom: 160px;
+	margin: auto;
+
+}
+
+.js-button {
+	height: 10%;
+	text-align: right;
+	margin: 0 5px;
+	background-color: black;
+}
+
+.js-quiz-next, .js-quiz-done {
+	font-family: 'Monoton', cursive;
+	height: 55px;
+	width: 55px;
+	border-radius: 20%;
+	background-color: silver;
+	color: white;
+	border-style: none;
+	font-size: 12px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.home {
+	height: 4%;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+	margin: 0 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: black;
+	color: silver;
+	font-size: 16px;
+}
+.bottom {
+	padding-top: 8px;
+	margin: 0 5px;
+
+}
